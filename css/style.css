@@ -23,3 +23,44 @@
 .nav-li {
 	margin-left: 50px;
 }
+
+/*sec 1 styles*/
+.sec1 {
+	display: flex;
+	width: 1920px;
+	height: 1100px;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+.wavebutton {
+	display: flex;
+	width: 263px;
+	height: 76px;
+	background-color: #3D37F1;
+	border-radius: 38px;
+	justify-content: center;
+	align-items: center;
+}
+.text1 {
+	font-size: 78px;
+	width: 600px;
+	font-family: 'Lato', sans-serif;
+	color: #534D4D;
+}
+.text2 {
+	font-size: 22px;
+	width: 600px;
+	margin-top: 42px;
+	margin-bottom: 106px;
+}
+.hand {
+	width: 14px;
+	height: 22px;
+	margin-right: 20px;
+}
+.wave {
+	color: #FFFFFF;
+	font-size: 23px;
+}
