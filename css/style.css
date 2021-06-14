@@ -1,0 +1,25 @@
+/*header styles*/
+.header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 67px;
+}
+.nav-ul {
+	display: flex;
+	margin-top: 30px;
+	text-transform: uppercase;
+	margin-right: 287px;
+	color: #3D37F1;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+
+}
+.logo {
+	margin-left: 132px;
+	height: 39px;
+}
+.nav-li {
+	margin-left: 50px;
+}
