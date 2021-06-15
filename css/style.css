@@ -143,15 +143,21 @@
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	color: #4B647E;
 }
 .text {
 	width: 280px;
 	text-align: center;
 	margin-top: 13px;
 	margin-bottom: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
 }
 .h3 {
 	margin-top: 60px;
+	font-family: 'Lato', sans-serif;
+	color: white;
 }
 .texts2 {
 	width: 1000px;
@@ -175,4 +181,14 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 67px;
+}
+.icon:hover {
+	background-color: white;
+}
+.services {
+	color: #3D37F1;
+	font-size: 20px;
+}
+.sec2 {
+	padding-bottom: 130px;
 }
