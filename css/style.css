@@ -76,10 +76,6 @@
 	justify-content: space-between;
 	margin-top: 60px;
 }
-.sec2{
-    width: 1185px;
-    margin: 0 auto;
-}
 .block1 {
 	width: 370px;
 	height: 451px;
@@ -88,6 +84,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+
 }
 .block2 {
 	width: 370px;
@@ -191,4 +188,6 @@
 }
 .sec2 {
 	padding-bottom: 130px;
+    width: 1185px;
+    margin: 0 auto;
 }
