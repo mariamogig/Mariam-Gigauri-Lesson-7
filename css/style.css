@@ -50,9 +50,11 @@
 	font-family: 'Lato', sans-serif;
 	color: #534D4D;
 }
-.text2 {
+.texts2 {
 	font-size: 22px;
-	width: 600px;
+	max-width: 600px;
+    width: 100%;
+    height: auto;
 	margin-top: 42px;
 	margin-bottom: 106px;
 	font-family: 'Roboto', sans-serif;
@@ -171,7 +173,8 @@
 	color: white;
 }
 .texts2 {
-	width: 1000px;
+	max-width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -199,4 +202,10 @@
 .services {
 	color: #3D37F1;
 	font-size: 20px;
+}
+.banner {
+	width: auto;
+}
+.bannerimage {
+	width: 100%;
 }
