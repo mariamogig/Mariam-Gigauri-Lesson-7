@@ -1,5 +1,28 @@
-@media (max-width: 950px) {
-	.titles {
+media (max-width: 768px) {
+	/*.texts {
 		width: 100%;
+		align-items: center;
+	}
+	.banner {
+		width: 100%;
+		align-items: center;
+	}*/
+	/*.sec1 {
+		flex-flow: column;
+		align-items: center;
+	}*/
+	.nav-ul {
+		display: none;
+	}
+	/*.line1 {
+		flex-flow: column;
+		align-items: center;
+	}*/
+	/*.block2 {
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}*/
+	.logo {
+		display: none;
 	}
 }

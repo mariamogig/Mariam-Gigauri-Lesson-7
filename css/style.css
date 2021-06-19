@@ -27,12 +27,13 @@
 /*sec 1 styles*/
 .sec1 {
 	display: flex;
-	width: 1920px;
+	width: auto;
 	height: 1100px;
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .wavebutton {
 	display: flex;
@@ -68,13 +69,23 @@
 }
 /*section 2 styles*/
 .line1 {
+	width: auto;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 .line2 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 	margin-top: 60px;
+	flex-wrap: wrap;
+}
+.sec2{
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 130px;
 }
 .block1 {
 	width: 370px;
@@ -84,7 +95,6 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-
 }
 .block2 {
 	width: 370px;
@@ -94,6 +104,8 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .block3 {
 	width: 370px;
@@ -121,6 +133,8 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 .block6 {
 	width: 370px;
@@ -185,9 +199,4 @@
 .services {
 	color: #3D37F1;
 	font-size: 20px;
-}
-.sec2 {
-	padding-bottom: 130px;
-    width: 1185px;
-    margin: 0 auto;
 }
