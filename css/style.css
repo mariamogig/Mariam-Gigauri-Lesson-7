@@ -43,10 +43,11 @@
 	border-radius: 38px;
 	justify-content: center;
 	align-items: center;
+	margin-top: 15px;
 }
 .text1 {
 	font-size: 78px;
-	width: 600px;
+	max-width: 600px;
 	font-family: 'Lato', sans-serif;
 	color: #534D4D;
 }
@@ -57,7 +58,13 @@
     height: auto;
 	margin-top: 42px;
 	margin-bottom: 106px;
+	text-align: center;
+	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
+}
+.texts {
+	width: auto;
+	height: auto;
 }
 .hand {
 	width: 14px;
@@ -171,12 +178,6 @@
 	margin-top: 60px;
 	font-family: 'Lato', sans-serif;
 	color: white;
-}
-.texts2 {
-	max-width: 1000px;
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
 }
 .services{
 	font-size: 20px;

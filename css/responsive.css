@@ -12,4 +12,14 @@
 	.banner {
 		width: 100%;
 	}
+	.wavebutton {
+	width: 233px;
+	height: 46px;
+}
+.texts {
+	width: 100%;
+}
+.texsts {
+	text-align: center;
+	margin: 0 auto;
 }
