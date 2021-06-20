@@ -25,14 +25,23 @@
 	height: 46px;
 }
 .texts {
+	/*max-width: 600px;
+    width: 100%;
+	margin: 0 auto;*/
+	font-size: 22px;
+	max-width: 600px;
+    width: 100%;
+    height: auto;
+	margin-top: 42px;
+	margin-bottom: 106px;
 	text-align: center;
-	width: 100%;
 	margin: 0 auto;
 }
 .text1 {
 	font-size: 40px;
 	margin-bottom: 15px;
 	margin-top: 15px;
+	text-align: center;
 }
 .wavebutton {
 	margin: 20px auto;
@@ -48,4 +57,8 @@
 }
 .quality {
 	font-size: 40px;
+}
+.sec1 {
+	width: auto;
+    margin: 0 auto
 }

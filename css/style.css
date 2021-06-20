@@ -43,7 +43,7 @@
 	border-radius: 38px;
 	justify-content: center;
 	align-items: center;
-	margin-top: 15px;
+	margin-top: 160px;
 }
 .text1 {
 	font-size: 78px;
@@ -62,6 +62,9 @@
 	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
 }
+.text2 {
+	margin-top: 30px;
+} 
 .texts {
 	width: auto;
 	height: auto;
@@ -184,7 +187,7 @@
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 17px;
-
+    color: #3D37F1;
 }
 .quality {
     font-family: 'Lato', sans-serif;
@@ -199,10 +202,6 @@
 }
 .icon:hover {
 	background-color: white;
-}
-.services {
-	color: #3D37F1;
-	font-size: 20px;
 }
 .banner {
 	width: auto;
