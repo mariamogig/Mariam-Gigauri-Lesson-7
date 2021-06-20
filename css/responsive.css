@@ -3,16 +3,10 @@
 		display: none;
 	}
 	.block2 {
-		margin-top: 25px;
-		margin-bottom: 25px;
-		margin-left: 0;
-		margin-right: 0;
+		margin-top: 25px 10px;
 	}
 	.block5 {
-		margin-top: 25px;
-		margin-bottom: 25px;
-		margin-left: 0;
-		margin-right: 0;
+		margin-top: 25px 10px;
 	}
 	.sec1 {
 		height: auto;
@@ -24,7 +18,7 @@
 	width: 233px;
 	height: 46px;
 }
-.texts {
+    .texts {
 	font-size: 22px;
 	max-width: 600px;
     width: 100%;
@@ -34,33 +28,69 @@
 	text-align: center;
 	margin: 0 auto;
 }
-.text1 {
+    .text1 {
 	font-size: 40px;
 	margin-bottom: 15px;
 	margin-top: 15px;
 	text-align: center;
 }
-.wavebutton {
+    .wavebutton {
 	margin: 20px auto;
 	width: 200px;
 	height: 43px;
 
 }
-.texts2 {
+    .texts2 {
 	margin-top: 30px;
 }
-.logo {
+    .logo {
 	margin: 0px auto 10px;
 }
-.quality {
+    .quality {
 	font-size: 40px;
 }
-.sec1 {
+    .sec1 {
 	width: auto;
     margin: 0 auto
 }
+   /* .block1,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6 {
+    	width: 30%;
+    }*/
+
+
 @media (max-width: 1366px) {
 	.wavebutton {
 		margin-top: 60px;
 	}
+	.block1,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6 {
+    	width: 30%;
+    	flex-wrap: wrap;
+    }
 }
+@media (max-width: 768px) {
+	.block1,
+    .block2,
+    .block3,
+    .block4,
+    .block5,
+    .block6 {
+    	width: 100%;
+    	flex-wrap: wrap;
+}
+    .block2,
+    .block5 {
+    	margin-left: 0;
+    	margin-right: 0;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    }
