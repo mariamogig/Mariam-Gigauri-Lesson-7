@@ -1,10 +1,18 @@
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	.nav-ul {
 		display: none;
 	}
 	.block2 {
 		margin-top: 25px;
 		margin-bottom: 25px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.block5 {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.sec1 {
 		height: auto;
@@ -17,9 +25,27 @@
 	height: 46px;
 }
 .texts {
-	width: 100%;
-}
-.texsts {
 	text-align: center;
+	width: 100%;
 	margin: 0 auto;
+}
+.text1 {
+	font-size: 40px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.wavebutton {
+	margin: 20px auto;
+	width: 200px;
+	height: 43px;
+
+}
+.texts2 {
+	margin-top: 30px;
+}
+.logo {
+	margin: 0px auto 10px;
+}
+.quality {
+	font-size: 40px;
 }
