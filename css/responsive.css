@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
 	.nav-ul {
 		display: none;
 	}
@@ -25,9 +25,6 @@
 	height: 46px;
 }
 .texts {
-	/*max-width: 600px;
-    width: 100%;
-	margin: 0 auto;*/
 	font-size: 22px;
 	max-width: 600px;
     width: 100%;
@@ -61,4 +58,9 @@
 .sec1 {
 	width: auto;
     margin: 0 auto
+}
+@media (max-width: 1366px) {
+	.wavebutton {
+		margin-top: 60px;
+	}
 }
