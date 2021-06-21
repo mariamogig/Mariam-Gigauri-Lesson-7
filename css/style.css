@@ -108,6 +108,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 .block2 {
 	max-width: 370px;
@@ -120,6 +121,7 @@
 	flex-direction: column;
 	margin-left: 25px;
 	margin-right: 25px;
+	flex-wrap: wrap;
 }
 .block3 {
 	max-width: 370px;
@@ -130,6 +132,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 .block4 {
 	max-width: 370px;
