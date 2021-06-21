@@ -14,13 +14,9 @@
 	.banner {
 		width: 100%;
 	}
-	.wavebutton {
-	width: 233px;
-	height: 46px;
-}
     .texts {
 	font-size: 22px;
-	max-width: 600px;
+	max-width: 600px;app://resources/notifications.html#
     width: 100%;
     height: auto;
 	margin-top: 100px;
@@ -53,9 +49,6 @@
 	width: auto;
     margin: 0 auto
 }
-    .wavebutton {
-		margin-top: 60px;
-	}
 	.block1,
     .block2,
     .block3,
@@ -67,6 +60,9 @@
     .block2,
     .block5 {
     	margin-top: 25px 10px;
+    }
+    .icon {
+    	justify-content: center;
     }
 }
 @media (max-width: 750px) {
