@@ -2,12 +2,6 @@
 	.nav-ul {
 		display: none;
 	}
-	.block2 {
-		margin-top: 25px 10px;
-	}
-	.block5 {
-		margin-top: 25px 10px;
-	}
 	.sec1 {
 		height: auto;
 	}
@@ -48,37 +42,8 @@
     .sec1 {
 	width: auto;
     margin: 0 auto
-}
-	.block1,
-    .block2,
-    .block3,
-    .block4,
-    .block5,
-    .block6 {
-    	width: 30%;
-    }
-    .block2,
-    .block5 {
-    	margin-top: 25px 10px;
     }
     .icon {
     	justify-content: center;
     }
 }
-@media (max-width: 750px) {
-	.block1,
-    .block2,
-    .block3,
-    .block4,
-    .block5,
-    .block6 {
-    	width: 100%;
-    	flex-wrap: wrap;
-}
-    .block2,
-    .block5 {
-    	margin-left: 0;
-    	margin-right: 0;
-    	margin-top: 20px;
-    	margin-bottom: 20px;
-    }
