@@ -1,7 +1,4 @@
 @media (max-width: 1180px) {
-	.nav-ul {
-		display: none;
-	}
 	.sec1 {
 		height: auto;
 	}
@@ -46,4 +43,12 @@
     .icon {
     	justify-content: center;
     }
+}
+@media (max-width: 1300px) {
+	.burgerbar {
+		display: block;
+	}
+	.nav-ul {
+		display: none;
+	}
 }

@@ -1,9 +1,8 @@
 /*header styles*/
 .header {
 	display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
     padding-top: 67px;
 }
 .nav-ul {
@@ -22,6 +21,12 @@
 }
 .nav-li {
 	margin-left: 50px;
+}
+.burgerbar {
+	display: none;
+	font-size: 30px;
+	margin-top: 20px;
+	color: grey;
 }
 
 /*sec 1 styles*/
